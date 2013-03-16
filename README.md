@@ -1,3 +1,9 @@
+# Ruby on Rails App: Membuat application
+
+This is the first application for
+[*Ruby on Rails Application*]
+by [Y. Prasetya Budi]
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
