@@ -1,0 +1,909 @@
+Script started on Sat 16 Mar 2013 02:22:29 AM WIT
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ 
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ bashwhich bash[6Pbash[Kbashwhich bash[1P/bin/bash./AptanaStudio3 ls[Kcd Aptana_Studio_3[7Pbash --helpcd Aptana_Studio_3ls[K./AptanaStudio3 [7P/bin/bashwhich bash[6Pbash[Kscript/test
+bash: script/test: No such file or directory
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ script/test[1Ptest test
+test: Is a directory
+Terminated
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ script testatestbtestotestutest[Ctest[1Pest[1Pst[1Pt[K
+Script started, file is about
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ bashwhich bash[1P/bin/bash[K[K[K[K[K[K[K[K[Kscript/sere[K[Ke[Krver
+bash: script/server: No such file or directory
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ cd..
+cd..: command not found
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ cd on[K[Kt[Krubyon[K[K[K[K[K[K[K[K[Kcd ..
+kurikulum@kurikulum-laptop:~/workspace$ cd ..[1P..script/servercd..[K ..[K[K[K[K[Kcd
+kurikulum@kurikulum-laptop:~$ cd ruv[Kby[K[K[K[K/var/www/rubyonrails/
+kurikulum@kurikulum-laptop:/var/www/rubyonrails$ ls
+google-chrome.desktop  membuat
+kurikulum@kurikulum-laptop:/var/www/rubyonrails$ cd membuat/
+kurikulum@kurikulum-laptop:/var/www/rubyonrails/membuat$ ls
+app	config.ru  doc	    Gemfile.lock  log	  Rakefile     script  tmp
+config	db	   Gemfile  lib		  public  README.rdoc  test    vendor
+kurikulum@kurikulum-laptop:/var/www/rubyonrails/membuat$ ls -l
+total 72
+drwxrwxr-x 8 kurikulum kurikulum 4096 2013-03-15 04:57 app
+drwxrwxr-x 5 kurikulum kurikulum 4096 2013-03-15 04:57 config
+-rw-rw-r-- 1 kurikulum kurikulum  157 2013-03-15 04:57 config.ru
+drwxrwxr-x 2 kurikulum kurikulum 4096 2013-03-15 04:57 db
+drwxrwxr-x 2 kurikulum kurikulum 4096 2013-03-15 04:57 doc
+-rw-rw-r-- 1 kurikulum kurikulum  766 2013-03-15 04:57 Gemfile
+-rw-rw-r-- 1 kurikulum kurikulum 2529 2013-03-15 04:59 Gemfile.lock
+drwxrwxr-x 4 kurikulum kurikulum 4096 2013-03-15 04:57 lib
+drwxrwxr-x 2 kurikulum kurikulum 4096 2013-03-15 04:57 log
+drwxrwxr-x 2 kurikulum kurikulum 4096 2013-03-15 04:57 public
+-rw-rw-r-- 1 kurikulum kurikulum  272 2013-03-15 04:57 Rakefile
+-rw-rw-r-- 1 kurikulum kurikulum 9208 2013-03-15 04:57 README.rdoc
+drwxr-xr-x 2 kurikulum kurikulum 4096 2013-03-15 04:57 script
+drwxrwxr-x 7 kurikulum kurikulum 4096 2013-03-15 04:57 test
+drwxrwxr-x 3 kurikulum kurikulum 4096 2013-03-15 04:57 tmp
+drwxrwxr-x 4 kurikulum kurikulum 4096 2013-03-15 04:57 vendor
+kurikulum@kurikulum-laptop:/var/www/rubyonrails/membuat$ rails server
+/home/kurikulum/.rvm/gems/ruby-1.9.3-p392/gems/execjs-1.4.0/lib/execjs/runtimes.rb:51:in `autodetect': Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes. (ExecJS::RuntimeUnavailable)
+	from /home/kurikulum/.rvm/gems/ruby-1.9.3-p392/gems/execjs-1.4.0/lib/execjs.rb:5:in `<module:ExecJS>'
+	from /home/kurikulum/.rvm/gems/ruby-1.9.3-p392/gems/execjs-1.4.0/lib/execjs.rb:4:in `<top (required)>'
+	from /home/kurikulum/.rvm/gems/ruby-1.9.3-p392/gems/coffee-script-2.2.0/lib/coffee_script.rb:1:in `require'
+	from /home/kurikulum/.rvm/gems/ruby-1.9.3-p392/gems/coffee-script-2.2.0/lib/coffee_script.rb:1:in `<top (required)>'
+	from /home/kurikulum/.rvm/gems/ruby-1.9.3-p392/gems/coffee-script-2.2.0/lib/coffee-script.rb:1:in `require'
+	from /home/kurikulum/.rvm/gems/ruby-1.9.3-p392/gems/coffee-script-2.2.0/lib/coffee-script.rb:1:in `<top (required)>'
+	from /home/kurikulum/.rvm/gems/ruby-1.9.3-p392/gems/coffee-rails-3.2.2/lib/coffee-rails.rb:1:in `require'
+	from /home/kurikulum/.rvm/gems/ruby-1.9.3-p392/gems/coffee-rails-3.2.2/lib/coffee-rails.rb:1:in `<top (required)>'
+	from /home/kurikulum/.rvm/gems/ruby-1.9.3-p392@global/gems/bundler-1.3.2/lib/bundler/runtime.rb:72:in `require'
+	from /home/kurikulum/.rvm/gems/ruby-1.9.3-p392@global/gems/bundler-1.3.2/lib/bundler/runtime.rb:72:in `block (2 levels) in require'
+	from /home/kurikulum/.rvm/gems/ruby-1.9.3-p392@global/gems/bundler-1.3.2/lib/bundler/runtime.rb:70:in `each'
+	from /home/kurikulum/.rvm/gems/ruby-1.9.3-p392@global/gems/bundler-1.3.2/lib/bundler/runtime.rb:70:in `block in require'
+	from /home/kurikulum/.rvm/gems/ruby-1.9.3-p392@global/gems/bundler-1.3.2/lib/bundler/runtime.rb:59:in `each'
+	from /home/kurikulum/.rvm/gems/ruby-1.9.3-p392@global/gems/bundler-1.3.2/lib/bundler/runtime.rb:59:in `require'
+	from /home/kurikulum/.rvm/gems/ruby-1.9.3-p392@global/gems/bundler-1.3.2/lib/bundler.rb:132:in `require'
+	from /var/www/rubyonrails/membuat/config/application.rb:7:in `<top (required)>'
+	from /home/kurikulum/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/commands.rb:53:in `require'
+	from /home/kurikulum/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/commands.rb:53:in `block in <top (required)>'
+	from /home/kurikulum/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/commands.rb:50:in `tap'
+	from /home/kurikulum/.rvm/gems/ruby-1.9.3-p392/gems/railties-3.2.12/lib/rails/commands.rb:50:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+kurikulum@kurikulum-laptop:/var/www/rubyonrails/membuat$ script --help
+script: invalid option -- '-'
+usage: script [-a] [-e] [-f] [-q] [-t] [file]
+kurikulum@kurikulum-laptop:/var/www/rubyonrails/membuat$ cd ..
+kurikulum@kurikulum-laptop:/var/www/rubyonrails$ rails emporium
+Usage:
+  rails new APP_PATH [options]
+
+Options:
+  -r, [--ruby=PATH]              # Path to the Ruby binary of your choice
+                                 # Default: /home/kurikulum/.rvm/rubies/ruby-1.9.3-p392/bin/ruby
+  -b, [--builder=BUILDER]        # Path to a application builder (can be a filesystem path or URL)
+  -m, [--template=TEMPLATE]      # Path to an application template (can be a filesystem path or URL)
+      [--skip-gemfile]           # Don't create a Gemfile
+      [--skip-bundle]            # Don't run bundle install
+  -G, [--skip-git]               # Skip Git ignores and keeps
+  -O, [--skip-active-record]     # Skip Active Record files
+  -S, [--skip-sprockets]         # Skip Sprockets files
+  -d, [--database=DATABASE]      # Preconfigure for selected database (options: mysql/oracle/postgresql/sqlite3/frontbase/ibm_db/sqlserver/jdbcmysql/jdbcsqlite3/jdbcpostgresql/jdbc)
+                                 # Default: sqlite3
+  -j, [--javascript=JAVASCRIPT]  # Preconfigure for selected JavaScript library
+                                 # Default: jquery
+  -J, [--skip-javascript]        # Skip JavaScript files
+      [--dev]                    # Setup the application with Gemfile pointing to your Rails checkout
+      [--edge]                   # Setup the application with Gemfile pointing to Rails repository
+  -T, [--skip-test-unit]         # Skip Test::Unit files
+      [--old-style-hash]         # Force using old style hash (:foo => 'bar') on Ruby >= 1.9
+
+Runtime options:
+  -f, [--force]    # Overwrite files that already exist
+  -p, [--pretend]  # Run but do not make any changes
+  -q, [--quiet]    # Suppress status output
+  -s, [--skip]     # Skip files that already exist
+
+Rails options:
+  -h, [--help]     # Show this help message and quit
+  -v, [--version]  # Show Rails version number and quit
+
+Description:
+    The 'rails new' command creates a new Rails application with a default
+    directory structure and configuration at the path you specify.
+
+    You can specify extra command-line arguments to be used every time
+    'rails new' runs in the .railsrc configuration file in your home directory.
+
+    Note that the arguments specified in the .railsrc file don't affect the
+    defaults values shown above in this help message.
+
+Example:
+    rails new ~/Code/Ruby/weblog
+
+    This generates a skeletal Rails installation in ~/Code/Ruby/weblog.
+    See the README in the newly created application to get going.
+kurikulum@kurikulum-laptop:/var/www/rubyonrails$ rails emporium[9Pcd ..script --help[8Pcd ..rails emporium[Krails emporiumnemporium[Cemporiumwemporium emporium
+[1m[32m      create[0m  
+[1m[32m      create[0m  README.rdoc
+[1m[32m      create[0m  Rakefile
+[1m[32m      create[0m  config.ru
+[1m[32m      create[0m  .gitignore
+[1m[32m      create[0m  Gemfile
+[1m[32m      create[0m  app
+[1m[32m      create[0m  app/assets/images/rails.png
+[1m[32m      create[0m  app/assets/javascripts/application.js
+[1m[32m      create[0m  app/assets/stylesheets/application.css
+[1m[32m      create[0m  app/controllers/application_controller.rb
+[1m[32m      create[0m  app/helpers/application_helper.rb
+[1m[32m      create[0m  app/views/layouts/application.html.erb
+[1m[32m      create[0m  app/mailers/.gitkeep
+[1m[32m      create[0m  app/models/.gitkeep
+[1m[32m      create[0m  config
+[1m[32m      create[0m  config/routes.rb
+[1m[32m      create[0m  config/application.rb
+[1m[32m      create[0m  config/environment.rb
+[1m[32m      create[0m  config/environments
+[1m[32m      create[0m  config/environments/development.rb
+[1m[32m      create[0m  config/environments/production.rb
+[1m[32m      create[0m  config/environments/test.rb
+[1m[32m      create[0m  config/initializers
+[1m[32m      create[0m  config/initializers/backtrace_silencers.rb
+[1m[32m      create[0m  config/initializers/inflections.rb
+[1m[32m      create[0m  config/initializers/mime_types.rb
+[1m[32m      create[0m  config/initializers/secret_token.rb
+[1m[32m      create[0m  config/initializers/session_store.rb
+[1m[32m      create[0m  config/initializers/wrap_parameters.rb
+[1m[32m      create[0m  config/locales
+[1m[32m      create[0m  config/locales/en.yml
+[1m[32m      create[0m  config/boot.rb
+[1m[32m      create[0m  config/database.yml
+[1m[32m      create[0m  db
+[1m[32m      create[0m  db/seeds.rb
+[1m[32m      create[0m  doc
+[1m[32m      create[0m  doc/README_FOR_APP
+[1m[32m      create[0m  lib
+[1m[32m      create[0m  lib/tasks
+[1m[32m      create[0m  lib/tasks/.gitkeep
+[1m[32m      create[0m  lib/assets
+[1m[32m      create[0m  lib/assets/.gitkeep
+[1m[32m      create[0m  log
+[1m[32m      create[0m  log/.gitkeep
+[1m[32m      create[0m  public
+[1m[32m      create[0m  public/404.html
+[1m[32m      create[0m  public/422.html
+[1m[32m      create[0m  public/500.html
+[1m[32m      create[0m  public/favicon.ico
+[1m[32m      create[0m  public/index.html
+[1m[32m      create[0m  public/robots.txt
+[1m[32m      create[0m  script
+[1m[32m      create[0m  script/rails
+[1m[32m      create[0m  test/fixtures
+[1m[32m      create[0m  test/fixtures/.gitkeep
+[1m[32m      create[0m  test/functional
+[1m[32m      create[0m  test/functional/.gitkeep
+[1m[32m      create[0m  test/integration
+[1m[32m      create[0m  test/integration/.gitkeep
+[1m[32m      create[0m  test/unit
+[1m[32m      create[0m  test/unit/.gitkeep
+[1m[32m      create[0m  test/performance/browsing_test.rb
+[1m[32m      create[0m  test/test_helper.rb
+[1m[32m      create[0m  tmp/cache
+[1m[32m      create[0m  tmp/cache/assets
+[1m[32m      create[0m  vendor/assets/javascripts
+[1m[32m      create[0m  vendor/assets/javascripts/.gitkeep
+[1m[32m      create[0m  vendor/assets/stylesheets
+[1m[32m      create[0m  vendor/assets/stylesheets/.gitkeep
+[1m[32m      create[0m  vendor/plugins
+[1m[32m      create[0m  vendor/plugins/.gitkeep
+[1m[32m         run[0m  bundle install
+Fetching gem metadata from https://rubygems.org/...........
+Fetching gem metadata from https://rubygems.org/..
+Resolving dependencies...
+Using rake (10.0.3) 
+Using i18n (0.6.4) 
+Using multi_json (1.6.1) 
+Using activesupport (3.2.12) 
+Using builder (3.0.4) 
+Using activemodel (3.2.12) 
+Using erubis (2.7.0) 
+Using journey (1.0.4) 
+Using rack (1.4.5) 
+Using rack-cache (1.2) 
+Using rack-test (0.6.2) 
+Using hike (1.2.1) 
+Using tilt (1.3.5) 
+Using sprockets (2.2.2) 
+Using actionpack (3.2.12) 
+Using mime-types (1.21) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.12) 
+Using mail (2.4.4) 
+Using actionmailer (3.2.12) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.37) 
+Using activerecord (3.2.12) 
+Using activeresource (3.2.12) 
+Using bundler (1.3.2) 
+Using coffee-script-source (1.6.1) 
+Using execjs (1.4.0) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.3) 
+Using json (1.7.7) 
+Using rdoc (3.12.2) 
+Using thor (0.17.0) 
+Using railties (3.2.12) 
+Using coffee-rails (3.2.2) 
+Using jquery-rails (2.2.1) 
+Using rails (3.2.12) 
+Using sass (3.2.7) 
+Using sass-rails (3.2.6) 
+Using sqlite3 (1.3.7) 
+Using uglifier (1.3.0) 
+Your bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.
+kurikulum@kurikulum-laptop:/var/www/rubyonrails$ rails new emporium[Kbundel[K[Kle show execjs
+[31mCould not locate Gemfile[0m
+kurikulum@kurikulum-laptop:/var/www/rubyonrails$ bundle show execjs[K[K[K[K[K[K[K
+[31mCould not locate Gemfile[0m
+kurikulum@kurikulum-laptop:/var/www/rubyonrails$ bundle show execjsrails new emporium[4Pemporium[9Pcd ..script --help[1Prails server[7Pls -l[Kcd membuat/ls[Kcd /var/www/rubyonrails/[K ..[1P..script/serverbash[Kwhich bash[1P/bin/bash./AptanaStudio3 ls[Kcd Aptana_Studio_3[7Pbash --help[5@/bin/[C[C[C[C[C[C[C[C[C[C[C[1@.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbash[Ksource ~/.rvm/scripts/rvm
+kurikulum@kurikulum-laptop:/var/www/rubyonrails$ source ~/.rvm/scripts/rvm[14Pbundle show execjs[K
+[31mCould not locate Gemfile[0m
+kurikulum@kurikulum-laptop:/var/www/rubyonrails$ bundle show[Kgem
+RubyGems is a sophisticated package manager for Ruby.  This is a
+basic help message containing pointers to more information.
+
+  Usage:
+    gem -h/--help
+    gem -v/--version
+    gem command [arguments...] [options...]
+
+  Examples:
+    gem install rake
+    gem list --local
+    gem build package.gemspec
+    gem help install
+
+  Further help:
+    gem help commands            list all 'gem' commands
+    gem help examples            show some examples of usage
+    gem help platforms           show information about platforms
+    gem help <COMMAND>           show help on COMMAND
+                                   (e.g. 'gem help install')
+    gem server                   present a web page at
+                                 http://localhost:8808/
+                                 with info about installed gems
+  Further information:
+    http://rubygems.rubyforge.org
+kurikulum@kurikulum-laptop:/var/www/rubyonrails$ ^C
+kurikulum@kurikulum-laptop:/var/www/rubyonrails$ 
+kurikulum@kurikulum-laptop:/var/www/rubyonrails$ cd
+kurikulum@kurikulum-laptop:~$ sudo apt-get install python-software-properties py thon g++ make
+[sudo] password for kurikulum: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 1%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+g++ is already the newest version.
+make is already the newest version.
+python is already the newest version.
+python-software-properties is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 21 not upgraded.
+kurikulum@kurikulum-laptop:~$ sudo apt-get install nodejs npm
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following extra packages will be installed:
+  libc-ares-dev libc-ares2 libev-dev libev4 libv8-3.1.8.22 libv8-dev
+  nodejs-dev
+The following NEW packages will be installed:
+  libc-ares-dev libc-ares2 libev-dev libev4 libv8-3.1.8.22 libv8-dev nodejs
+  nodejs-dev npm
+0 upgraded, 9 newly installed, 0 to remove and 21 not upgraded.
+Need to get 2,461 kB of archives.
+After this operation, 8,491 kB of additional disk space will be used.
+Do you want to continue [Y/n]? y
+WARNING: The following packages cannot be authenticated!
+  libv8-3.1.8.22 libc-ares2 libc-ares-dev libev4 libev-dev libv8-dev nodejs
+  nodejs-dev npm
+Install these packages without verification [y/N]? y
+0% [Working]            0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]                        Get:1 http://archive.ubuntu.com/ubuntu/ oneiric/universe libv8-3.1.8.22 i386 3.1.8.22-1ubuntu2 [1,386 kB]
+                        0% [1 libv8-3.1.8.22 0 B/1,386 kB 0%]                                     1% [1 libv8-3.1.8.22 29.0 kB/1,386 kB 2%]2% [1 libv8-3.1.8.22 57.0 kB/1,386 kB 4%]3% [1 libv8-3.1.8.22 96.2 kB/1,386 kB 6%]7% [1 libv8-3.1.8.22 176 kB/1,386 kB 12%]                                         11% [1 libv8-3.1.8.22 272 kB/1,386 kB 19%]                        41.9 kB/s 52s14% [1 libv8-3.1.8.22 363 kB/1,386 kB 26%]                        41.9 kB/s 50s18% [1 libv8-3.1.8.22 445 kB/1,386 kB 32%]                        41.9 kB/s 48s21% [1 libv8-3.1.8.22 540 kB/1,386 kB 38%]                        41.9 kB/s 45s24% [1 libv8-3.1.8.22 608 kB/1,386 kB 43%]                        41.9 kB/s 44s26% [1 libv8-3.1.8.22 662 kB/1,386 kB 47%]                        41.9 kB/s 42s29% [1 libv8-3.1.8.22 722 kB/1,386 kB 52%]                        41.9 kB/s 41s32% [1 libv8-3.1.8.22 808 kB/1,386 kB 58%]                        41.9 kB/s 39s35% [1 libv8-3.1.8.22 883 kB/1,386 kB 63%]                        41.9 kB/s 37s39% [1 libv8-3.1.8.22 962 kB/1,386 kB 69%]                        41.9 kB/s 35s42% [1 libv8-3.1.8.22 1,052 kB/1,386 kB 75%]                      41.9 kB/s 33s46% [1 libv8-3.1.8.22 1,142 kB/1,386 kB 82%]                      41.9 kB/s 31s49% [1 libv8-3.1.8.22 1,219 kB/1,386 kB 87%]                        158 kB/s 7s52% [1 libv8-3.1.8.22 1,304 kB/1,386 kB 94%]                        158 kB/s 7s56% [Working]                                                       158 kB/s 6s                                                                               Get:2 http://archive.ubuntu.com/ubuntu/ oneiric/main libc-ares2 i386 1.7.4-1 [37.3 kB]
+56% [2 libc-ares2 577 B/37.3 kB 1%]                                 158 kB/s 6s57% [Working]                                                       158 kB/s 6s                                                                               Get:3 http://archive.ubuntu.com/ubuntu/ oneiric/main libc-ares-dev i386 1.7.4-1 [97.4 kB]
+57% [3 libc-ares-dev 0 B/97.4 kB 0%]                                158 kB/s 6s61% [3 libc-ares-dev 89.7 kB/97.4 kB 92%]                           158 kB/s 6s61% [Working]                                                       158 kB/s 5s                                                                               Get:4 http://archive.ubuntu.com/ubuntu/ oneiric/universe libev4 i386 1:4.04-1 [29.5 kB]
+61% [4 libev4 412 B/29.5 kB 1%]                                     158 kB/s 5s62% [Working]                                                       158 kB/s 5s                                                                               Get:5 http://archive.ubuntu.com/ubuntu/ oneiric/universe libev-dev i386 1:4.04-1 [117 kB]
+62% [5 libev-dev 212 B/117 kB 0%]                                   158 kB/s 5s66% [5 libev-dev 81.9 kB/117 kB 70%]                                158 kB/s 5s67% [Working]                                                       158 kB/s 5s                                                                               Get:6 http://archive.ubuntu.com/ubuntu/ oneiric/universe libv8-dev i386 3.1.8.22-1ubuntu2 [41.5 kB]
+67% [6 libv8-dev 0 B/41.5 kB 0%]                                    158 kB/s 5s69% [Working]                                                       158 kB/s 4s                                                                               Get:7 http://archive.ubuntu.com/ubuntu/ oneiric/universe nodejs i386 0.4.9-1ubuntu3 [486 kB]
+69% [7 nodejs 436 B/486 kB 0%]                                      158 kB/s 4s73% [7 nodejs 93.4 kB/486 kB 19%]                                   158 kB/s 4s76% [7 nodejs 182 kB/486 kB 37%]                                    158 kB/s 3s80% [7 nodejs 261 kB/486 kB 53%]                                    158 kB/s 3s83% [7 nodejs 336 kB/486 kB 69%]                                    158 kB/s 2s86% [7 nodejs 412 kB/486 kB 84%]                                    158 kB/s 2s89% [Working]                                                       158 kB/s 1s                                                                               Err http://archive.ubuntu.com/ubuntu/ oneiric/universe nodejs-dev i386 0.4.9-1ubuntu3
+  400  Bad Request [IP: 91.189.92.200 80]
+89% [Connecting to archive.ubuntu.com (91.189.92.200)]              158 kB/s 1s89% [Waiting for headers]                                           154 kB/s 1s                                                                               Get:8 http://archive.ubuntu.com/ubuntu/ oneiric/universe npm all 0.2.19-1 [138 kB]
+89% [8 npm 0 B/138 kB 0%]                                           154 kB/s 1s90% [8 npm 26.4 kB/138 kB 19%]                                      154 kB/s 1s91% [8 npm 53.2 kB/138 kB 38%]                                      154 kB/s 1s92% [8 npm 79.9 kB/138 kB 57%]                                      154 kB/s 1s94% [Working]                                                       154 kB/s 0s                                                                               Fetched 2,332 kB in 20s (111 kB/s)
+Failed to fetch http://archive.ubuntu.com/ubuntu/pool/universe/n/nodejs/nodejs-dev_0.4.9-1ubuntu3_i386.deb  400  Bad Request [IP: 91.189.92.200 80]
+E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+kurikulum@kurikulum-laptop:~$ sudo apt-get install nodejs npm[K[K[K[K[Ks
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following extra packages will be installed:
+  libc-ares2 libev4 libv8-3.1.8.22
+The following NEW packages will be installed:
+  libc-ares2 libev4 libv8-3.1.8.22 nodejs
+0 upgraded, 4 newly installed, 0 to remove and 21 not upgraded.
+Need to get 0 B/1,938 kB of archives.
+After this operation, 6,066 kB of additional disk space will be used.
+Do you want to continue [Y/n]? y
+WARNING: The following packages cannot be authenticated!
+  libv8-3.1.8.22 libc-ares2 libev4 nodejs
+Install these packages without verification [y/N]? y
+Selecting previously deselected package libv8-3.1.8.22.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 419336 files and directories currently installed.)
+Unpacking libv8-3.1.8.22 (from .../libv8-3.1.8.22_3.1.8.22-1ubuntu2_i386.deb) ...
+Selecting previously deselected package libc-ares2.
+Unpacking libc-ares2 (from .../libc-ares2_1.7.4-1_i386.deb) ...
+Selecting previously deselected package libev4.
+Unpacking libev4 (from .../libev4_1%3a4.04-1_i386.deb) ...
+Selecting previously deselected package nodejs.
+Unpacking nodejs (from .../nodejs_0.4.9-1ubuntu3_i386.deb) ...
+Processing triggers for doc-base ...
+Processing 1 added doc-base file...
+Registering documents with scrollkeeper...
+Processing triggers for man-db ...
+Setting up libv8-3.1.8.22 (3.1.8.22-1ubuntu2) ...
+Setting up libc-ares2 (1.7.4-1) ...
+Setting up libev4 (1:4.04-1) ...
+Setting up nodejs (0.4.9-1ubuntu3) ...
+update-alternatives: using /usr/bin/node to provide /usr/bin/js (js) in auto mode.
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+kurikulum@kurikulum-laptop:~$ sudo apt-get install nodejs npmpython-software-properties pytthon g++ make[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgembundle showsource ~/.rvm/scripts/rvm[14Pbundle show execjsrails new emporium[4Pemporium[9Pcd ..script --help[1Prails server[7Pls -l[Kcd membuat/ls[Kcd /var/www/rubyonrails/
+kurikulum@kurikulum-laptop:/var/www/rubyonrails$ cd /var/www/rubyonrails/[Kcd membuat/
+kurikulum@kurikulum-laptop:/var/www/rubyonrails/membuat$ s[Krails server
+=> Booting WEBrick
+=> Rails 3.2.12 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+[2013-03-16 02:54:33] INFO  WEBrick 1.3.1
+[2013-03-16 02:54:33] INFO  ruby 1.9.3 (2013-02-22) [i686-linux]
+[2013-03-16 02:54:33] INFO  WEBrick::HTTPServer#start: pid=16914 port=3000
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-03-16 02:54:55 +0700
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (86ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2013-03-16 06:23:20 +0700
+Processing by Rails::InfoController#properties as */*
+  Rendered inline template (4.9ms)
+Completed 200 OK in 80ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+[2013-03-16 06:23:55] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+^C[2013-03-16 06:24:17] INFO  going to shutdown ...
+[2013-03-16 06:24:17] INFO  WEBrick::HTTPServer#start done.
+Exiting
+kurikulum@kurikulum-laptop:/var/www/rubyonrails/membuat$ cd
+kurikulum@kurikulum-laptop:~$ cd workspace/Membuat/
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ ls
+about	config.ru  Gemfile	 log	   README.rdoc	tmp
+app	db	   Gemfile.lock  public    script	typescript
+config	doc	   lib		 Rakefile  test		vendor
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ lscd workspace/Membuat/[Krails server
+=> Booting WEBrick
+=> Rails 3.2.12 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+[2013-03-16 06:24:52] INFO  WEBrick 1.3.1
+[2013-03-16 06:24:52] INFO  ruby 1.9.3 (2013-02-22) [i686-linux]
+[2013-03-16 06:24:52] INFO  WEBrick::HTTPServer#start: pid=19733 port=3000
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-03-16 06:25:00 +0700
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (18ms)
+[2013-03-16 06:25:00] WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true
+^Z
+[1]+  Stopped                 rails server
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ rails serverls[Kcd workspace/Membuat/[Krails server[1Pcd membuat//var/www/rubyonrails/sudo apt-get install nodejs npmpython-softwware-properties python g++ make[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgembundle showsource ~/.rvm/scripts/rvm[14Pbundle show execjsrails new emporium[4Pemporium[9Pcd ..script --help[1Prails server[7Pls -l[Kcd membuat/ls[Kcd /var/www/rubyonrails/[K ..[1P..script/serverbash[Kwhich bash[1P/bin/bash./AptanaStudio3 ls[Kcd Aptana_Studio_3[7Pbash --help[5@/bin/[C[C[C[C[C[C[C[C[C[C[C[1@.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbash[Ksource ~/.rvm/scripts/rvmudo apt-get install bash[1@s[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Krails serversource ~/.rvm/scripts/rvm[13Prails server[1Pcd Membuat/ls[Kcd workspace/[2Prails new .whereis jvmreava[1Pre[2Pich[C[C[C[C[6Pjvmrerails server[1Pbundle showcd rubyonrails/membuat/[12Pbundle showrails new rubyonrails/membuat[8Pgem install rdoc-data[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crails new rubyonrails/membuat[4Psource ~/.rvm/scripts/rvmrails -v[Kgem install rails[10Pruby -v[Kvm use 1.9.3gem list --local[3Prvm use 2.0.0source ~/.rvm/scripts/rvm[12Prvm use 2.0.0
+[32mUsing /home/kurikulum/.rvm/gems/ruby-2.0.0-p0(B[m
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ rvm use 2.0.0[1Pails serverls[Kcd workspace/Membuat/[Krails server[1Pcd membuat//var/www/rubyonrails/sudo apt-get install nodejs npmpython-softwware-properties python g++ make[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgembundle showsource ~/.rvm/scripts/rvm[14Pbundle show execjsrails new emporium[4Pemporium[9Pcd ..script --help[1Prails server[7Pls -l[Kcd membuat/ls[Kcd /var/www/rubyonrails/[K ..[1P..script/serverbash[Kwhich bash[1P/bin/bash./AptanaStudio3 ls[Kcd Aptana_Studio_3[7Pbash --help[5@/bin/[C[C[C[C[C[C[C[C[C[C[C[1@.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbash[Ksource ~/.rvm/scripts/rvmudo apt-get install bash[1@s[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[Cource ~/.rvm/scripts/rvmudo apt-get install bash[1@s[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Krails serversource ~/.rvm/scripts/rvm[13Prails server[1Pcd Membuat/ls[Kcd workspace/[2Prails new .whereis jvmreava[1Pre[2Pich[C[C[C[C[6Pjvmrerails server[1Pbundle showcd rubyonrails/membuat/[12Pbundle showrails new rubyonrails/membuat[8Pgem install rdoc-data[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crails new rubyonrails/membuat[4Psource ~/.rvm/scripts/rvmrails -v[Kgem install rails[10Pruby -v[Kvm use 1.9.3gem list --local[3Prvm use 2.0.0source ~/.rvm/scripts/rvm[12Prvm use 2.0.0source ~/.rvm/scripts/rvm[12Prvm use 2.0.0gem list --local[8Prails -v[1Puby[C[C[C[3Pexitruby -vvm requirments[1@type[C[C[C[C[C[C[C[C[C[C[C[Cvm | head -n 1[4Pgem user gemsetsrails[Ksource ~/.rvm/scripts/rvm[2Prvm use 1.9.3 --default[C[C[1@2[1P[C[1@0[1P[C[1@0[1P --default
+[32mUsing /home/kurikulum/.rvm/gems/ruby-2.0.0-p0(B[m
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ ruby -v
+ruby 2.0.0p0 (2013-02-24 revision 39474) [i686-linux]
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ ruby -vvm use 2.0.0 --default[K[1Pails serverls[Kcd workspace/Membuat/[Krails server[1Pcd membuat/rails server
+=> Booting WEBrick
+=> Rails 3.2.12 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+A server is already running. Check /home/kurikulum/workspace/Membuat/tmp/pids/server.pid.
+Exiting
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ ^C
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ ^C
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ ^C
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ ^C
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ ^C
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ rails server
+=> Booting WEBrick
+=> Rails 3.2.12 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+A server is already running. Check /home/kurikulum/workspace/Membuat/tmp/pids/server.pid.
+Exiting
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ ps ax
+  PID TTY      STAT   TIME COMMAND
+    1 ?        Ss     0:01 /sbin/init
+    2 ?        S      0:00 [kthreadd]
+    3 ?        S      0:17 [ksoftirqd/0]
+    6 ?        S      0:00 [migration/0]
+   11 ?        S<     0:00 [cpuset]
+   12 ?        S<     0:00 [khelper]
+   13 ?        S<     0:00 [netns]
+   15 ?        S      0:00 [sync_supers]
+   16 ?        S      0:00 [bdi-default]
+   17 ?        S<     0:00 [kintegrityd]
+   18 ?        S<     0:00 [kblockd]
+   19 ?        S<     0:00 [ata_sff]
+   20 ?        S      0:00 [khubd]
+   21 ?        S<     0:00 [md]
+   23 ?        S      0:00 [khungtaskd]
+   24 ?        S      0:05 [kswapd0]
+   25 ?        SN     0:00 [ksmd]
+   26 ?        SN     0:00 [khugepaged]
+   27 ?        S      0:00 [fsnotify_mark]
+   28 ?        S      0:00 [ecryptfs-kthrea]
+   29 ?        S<     0:00 [crypto]
+   37 ?        S<     0:00 [kthrotld]
+   40 ?        S      0:00 [scsi_eh_0]
+   41 ?        S      0:00 [scsi_eh_1]
+  220 ?        S<     0:00 [firewire]
+  221 ?        S      0:00 [scsi_eh_2]
+  222 ?        S      0:00 [scsi_eh_3]
+  223 ?        S      0:00 [scsi_eh_4]
+  224 ?        S      0:00 [scsi_eh_5]
+  271 ?        S      0:01 [jbd2/sda6-8]
+  272 ?        S<     0:00 [ext4-dio-unwrit]
+  328 ?        S      0:00 upstart-udev-bridge --daemon
+  345 ?        Sl     0:23 /opt/google/chrome/chrome --type=renderer --lang=en-U
+  346 ?        Ss     0:00 udevd --daemon
+  432 ?        S<     0:00 [cfg80211]
+  505 ?        S<     0:00 [iwl3945]
+  660 ?        S<     0:00 [kpsmoused]
+  702 ?        S<     0:00 [kmemstick]
+  704 ?        S      0:00 [r592_io]
+  705 ?        S<     0:00 [r852]
+  797 ?        S      0:00 [jbd2/sda7-8]
+  800 ?        S<     0:00 [ext4-dio-unwrit]
+  822 ?        S<     0:00 [l2cap]
+ 1066 ?        S<     0:00 [hd-audio0]
+ 1126 ?        S      0:00 upstart-socket-bridge --daemon
+ 1152 ?        Ss     0:00 /usr/sbin/sshd -D
+ 1155 ?        Sl     0:02 rsyslogd -c5
+ 1163 ?        Ss     0:07 dbus-daemon --system --fork --activation=upstart
+ 1173 ?        S      0:03 /usr/sbin/modem-manager
+ 1175 ?        Ssl    0:01 NetworkManager
+ 1177 ?        S      0:00 avahi-daemon: running [kurikulum-laptop.local]
+ 1178 ?        S      0:00 avahi-daemon: chroot helper
+ 1195 ?        Sl     0:02 /usr/lib/policykit-1/polkitd --no-debug
+ 1233 ?        S      0:00 /sbin/wpa_supplicant -u -s -O /var/run/wpa_supplicant
+ 1251 tty4     Ss+    0:00 /sbin/getty -8 38400 tty4
+ 1257 tty5     Ss+    0:00 /sbin/getty -8 38400 tty5
+ 1277 tty2     Ss+    0:00 /sbin/getty -8 38400 tty2
+ 1281 tty3     Ss+    0:00 /sbin/getty -8 38400 tty3
+ 1290 ?        Ss     0:00 /usr/sbin/avr-evtd -d /dev/ttyS0
+ 1295 tty6     Ss+    0:00 /sbin/getty -8 38400 tty6
+ 1318 ?        Ss     0:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+ 1319 ?        Sl    10:03 /usr/local/Mobile_Partner/MobilePartner.bin
+ 1324 ?        Ssl    0:00 lightdm
+ 1336 ?        Ssl    0:07 /usr/sbin/mysqld
+ 1344 ?        Ss     0:00 cron
+ 1345 ?        Ss     0:00 atd
+ 1347 ?        Ss     0:02 /usr/sbin/irqbalance
+ 1361 tty7     Ss+   10:13 /usr/bin/X :0 -auth /var/run/lightdm/root/:0 -noliste
+ 1366 ?        S      0:03 [flush-8:0]
+ 1376 ?        S      0:00 /usr/lib/postgresql/9.1/bin/postgres -D /var/lib/post
+ 1413 ?        Ss     0:02 /usr/sbin/cupsd -F
+ 1417 ?        Sl     0:00 /usr/lib/i386-linux-gnu/colord/colord
+ 1450 ?        Ss     0:03 postgres: writer process                            
+ 1451 ?        Ss     0:02 postgres: wal writer process                        
+ 1452 ?        Ss     0:00 postgres: autovacuum launcher process               
+ 1453 ?        Ss     0:00 postgres: stats collector process                   
+ 1457 ?        Sl     0:00 /usr/lib/accountsservice/accounts-daemon
+ 1466 ?        Sl     0:00 /usr/sbin/console-kit-daemon --no-daemon
+ 1574 ?        Sl     0:00 /usr/lib/upower/upowerd
+ 1633 ?        SNl    0:00 /usr/lib/rtkit/rtkit-daemon
+ 1714 ?        Ssl    0:00 /usr/sbin/slapd -h ldap:/// ldapi:/// -g openldap -u
+ 1734 ?        S      0:00 ddclient - sleeping for 20 seconds
+ 1756 ?        Ss     0:00 sudo -u ebox /usr/bin/redis-server /var/lib/ebox/conf
+ 1757 ?        S      0:06 /usr/bin/redis-server /var/lib/ebox/conf/redis.conf
+ 1889 ?        Ss     0:01 /usr/sbin/apache2 -k start -f /var/lib/ebox/conf/apac
+ 1908 ?        Sl     0:00 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.
+ 1916 ?        Ss     0:07 /usr/bin/redis-server /etc/redis/redis.conf
+ 1929 ?        S      0:00 /usr/sbin/apache2 -k start -f /var/lib/ebox/conf/apac
+ 1931 ?        Sl     0:08 python /usr/bin/paster serve --user=schooltool --grou
+ 1954 ?        S<     0:00 [iprt]
+ 1981 ?        Ss     0:00 /usr/sbin/winbindd
+ 1993 ?        Ss     0:00 /usr/bin/xfs -daemon -user debian-xfs -droppriv
+ 1996 ?        S      0:00 /usr/sbin/winbindd
+ 2011 ?        Ss     0:00 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 122:136
+ 2027 ?        Ss     0:00 /usr/sbin/bluetoothd
+ 2032 ?        S<     0:00 [krfcommd]
+ 2038 ?        Ss     0:00 /usr/sbin/ccpd
+ 2084 ?        Ss     0:00 /usr/sbin/apache2 -k start
+ 2110 ?        S      0:00 /usr/sbin/apache2 -k start
+ 2111 ?        S      0:00 /usr/sbin/apache2 -k start
+ 2112 ?        S      0:00 /usr/sbin/apache2 -k start
+ 2113 ?        S      0:00 /usr/sbin/apache2 -k start
+ 2114 ?        S      0:00 /usr/sbin/apache2 -k start
+ 2116 ?        S      0:00 /usr/sbin/lighttpd -f /etc/lighttpd/lighttpd.conf
+ 2126 ?        Ss     0:00 /usr/bin/php-cgi
+ 2136 ?        S      0:00 /usr/bin/php-cgi
+ 2146 ?        Ss     0:00 /usr/bin/php-cgi
+ 2151 ?        S      0:00 /usr/bin/php-cgi
+ 2162 ?        S      0:03 /usr/local/Mobile_Partner/driver/HWActivator .bin
+ 2165 ?        S      0:03 /usr/local/MobileBrServ/mbbservice
+ 2167 tty1     Ss+    0:00 /sbin/getty -8 38400 tty1
+ 2169 ?        Ss     0:00 /usr/bin/php-cgi
+ 2171 ?        S      0:00 /usr/bin/php-cgi
+ 2172 ?        Ss     0:00 /usr/bin/php-cgi
+ 2174 ?        S      0:00 /usr/bin/php-cgi
+ 2188 ?        SLl    0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ 2214 ?        Ssl    0:00 /usr/bin/gnome-session --session=gnome-classic
+ 2247 ?        Ss     0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-s
+ 2250 ?        S      0:00 /usr/bin/dbus-launch --exit-with-session /usr/bin/gno
+ 2251 ?        Ss     0:14 //bin/dbus-daemon --fork --print-pid 5 --print-addres
+ 2253 ?        S      0:00 /usr/lib/gvfs/gvfsd
+ 2258 ?        Ssl    0:00 /usr/lib/gvfs//gvfs-fuse-daemon /home/kurikulum/.gvfs
+ 2274 ?        Sl     0:09 /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+ 2280 ?        S      0:07 /usr/sbin/ccpd
+ 2283 ?        S      0:00 /usr/lib/libgconf2-4/gconfd-2
+ 2286 ?        Sl     0:00 /usr/lib/gnome-settings-daemon/gsd-printer
+ 2291 ?        Sl     0:01 /usr/bin/gnome-screensaver --no-daemon
+ 2292 ?        Sl     0:15 metacity
+ 2296 ?        S      0:05 syndaemon -i 0.5 -K -R
+ 2299 ?        Sl     1:22 gnome-panel
+ 2302 ?        S<l    3:52 /usr/bin/pulseaudio --start --log-target=syslog
+ 2306 ?        Sl     0:00 /usr/lib/dconf/dconf-service
+ 2312 ?        S      0:00 /usr/lib/pulseaudio/pulse/gconf-helper
+ 2314 ?        Sl     0:00 /usr/lib/gnome-settings-daemon/gnome-fallback-mount-h
+ 2316 ?        Sl     0:00 bluetooth-applet
+ 2317 ?        Sl     0:00 nm-applet
+ 2318 ?        Sl     0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authenticatio
+ 2319 ?        Sl     0:01 gnome-sound-applet
+ 2320 ?        Sl     4:37 nautilus -n
+ 2333 ?        S      0:00 /usr/lib/gvfs/gvfs-gdu-volume-monitor
+ 2337 ?        Sl     0:00 /usr/lib/udisks/udisks-daemon
+ 2338 ?        S      0:02 udisks-daemon: polling /dev/sdb /dev/sr0
+ 2351 ?        Sl     0:00 /usr/lib/notify-osd/notify-osd
+ 2369 ?        Sl     0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ 2372 ?        S      0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ 2374 ?        S      0:00 /usr/lib/telepathy/mission-control-5
+ 2376 ?        S      0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.1 /org/gtk/gvf
+ 2381 ?        S      0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.1 /org/gtk/gvfs
+ 2399 ?        S      0:03 /usr/lib/gvfs/gvfsd-metadata
+ 2425 ?        Sl     0:00 telepathy-indicator
+ 2483 ?        S      0:00 /usr/lib/gnome-disk-utility/gdu-notification-daemon
+ 2718 ?        S      0:00 /usr/bin/python /usr/share/system-config-printer/appl
+ 2731 ?        Sl     0:30 /usr/bin/python /usr/lib/ubuntuone-client/ubuntuone-s
+ 5455 ?        Sl     0:05 /opt/google/chrome/chrome --type=renderer --lang=en-U
+ 6133 ?        Sl     0:00 /opt/google/chrome/chrome --type=renderer --lang=en-U
+ 6291 ?        Sl     0:01 update-notifier
+ 6312 ?        S      0:00 /usr/bin/python /usr/lib/system-service/system-servic
+ 6645 ?        Sl     0:00 /usr/lib/deja-dup/deja-dup/deja-dup-monitor
+ 7005 ?        Ss     1:27 /sbin/mount.ntfs /dev/sda8 /media/DATA -o rw,nosuid,n
+ 7066 ?        Sl     0:01 /opt/google/chrome/chrome --type=renderer --lang=en-U
+ 7886 ?        Rl     0:04 lxterminal
+ 7909 ?        Z      0:00 [lxterminal] <defunct>
+ 7910 pts/0    Ss     0:00 /bin/bash
+ 9561 ?        S      0:00 [kworker/0:0]
+ 9732 ?        Sl     0:04 /opt/google/chrome/chrome --type=renderer --lang=en-U
+ 9811 ?        Sl     0:03 /opt/google/chrome/chrome --type=renderer --lang=en-U
+ 9854 ?        Sl     0:03 /opt/google/chrome/chrome --type=renderer --lang=en-U
+11435 ?        Sl     0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+11870 ?        S      0:09 [kworker/0:2]
+11899 ?        S      0:00 /usr/sbin/apache2 -k start
+13173 pts/0    S+     0:00 script
+13174 pts/0    S+     0:00 script
+13175 pts/1    Ss     0:00 bash -i
+14075 pts/1    S+     0:00 script about
+14076 pts/1    R+     0:00 script about
+14077 pts/2    Ss     0:00 bash -i
+15067 ?        S      0:00 [kworker/0:1]
+15533 ?        S      0:00 /usr/sbin/apache2 -k start
+15534 ?        S      0:00 /usr/sbin/apache2 -k start
+15535 ?        S      0:00 /usr/sbin/apache2 -k start
+15779 ?        Rl     9:40 gnome-system-monitor
+17422 ?        Sl     0:01 /opt/google/chrome/chrome --type=renderer --lang=en-U
+18845 ?        S      0:00 [flush-0:20]
+18846 ?        S      0:00 [flush-8:8-fuseb]
+18848 ?        S      0:00 [kworker/u:0]
+18849 ?        S      0:00 [kworker/u:1]
+18850 ?        S      0:00 [kworker/u:2]
+18851 ?        S      0:00 [kworker/u:3]
+18852 ?        S      0:00 [kworker/u:4]
+18853 ?        S      0:00 [kworker/u:5]
+18854 ?        S      0:00 [kworker/u:6]
+18855 ?        S      0:00 [kworker/u:7]
+18856 ?        S      0:00 [kworker/u:8]
+18857 ?        S      0:00 [kworker/u:9]
+18860 ?        S      0:00 [migration/1]
+18861 ?        S      0:00 [kworker/1:3]
+18862 ?        S      0:00 [ksoftirqd/1]
+18863 ?        S      0:00 [kworker/1:0]
+18864 ?        S      0:00 [kworker/u:10]
+18865 ?        S      0:00 [kworker/u:11]
+18866 ?        S      0:00 [kworker/u:12]
+18867 ?        S      0:00 [kworker/u:13]
+18868 ?        S      0:00 [kworker/u:14]
+18869 ?        S      0:00 [kworker/u:15]
+18870 ?        S      0:00 [kworker/u:16]
+18871 ?        S      0:00 [kworker/u:17]
+18872 ?        S      0:00 [kworker/u:18]
+18873 ?        S      0:00 [kworker/u:19]
+18874 ?        S      0:00 [kworker/u:20]
+18875 ?        S      0:00 [kworker/u:21]
+18876 ?        S      0:00 [kworker/u:24]
+18877 ?        S      0:00 [kworker/u:25]
+18878 ?        S      0:00 [kworker/u:26]
+18879 ?        S      0:00 [kworker/u:27]
+18880 ?        S      0:00 [kworker/u:28]
+18881 ?        S      0:00 [kworker/u:29]
+18882 ?        S      0:00 [kworker/u:31]
+18883 ?        S      0:00 [kworker/u:32]
+18884 ?        S      0:00 [kworker/u:33]
+18885 ?        S      0:00 [kworker/u:34]
+18886 ?        S      0:00 [kworker/u:35]
+18887 ?        S      0:00 [kworker/u:36]
+18888 ?        S      0:00 [kworker/u:37]
+18889 ?        S      0:00 [kworker/u:38]
+18890 ?        S      0:00 [kworker/u:39]
+18891 ?        S      0:00 [kworker/u:40]
+18892 ?        S      0:00 [kworker/u:41]
+18893 ?        S      0:00 [kworker/u:42]
+18894 ?        S      0:00 [kworker/u:43]
+18895 ?        S      0:00 [kworker/u:44]
+18896 ?        S      0:00 [kworker/u:45]
+18897 ?        S      0:00 [kworker/u:46]
+18898 ?        S      0:00 [kworker/u:47]
+18899 ?        S      0:00 [kworker/u:48]
+18900 ?        S      0:00 [kworker/u:49]
+18901 ?        S      0:00 [kworker/u:50]
+18902 ?        S      0:00 [kworker/u:51]
+18903 ?        S      0:00 [kworker/u:52]
+18904 ?        S      0:00 [kworker/u:53]
+18905 ?        S      0:00 [kworker/u:54]
+18906 ?        S      0:00 [kworker/u:55]
+18907 ?        S      0:00 [kworker/u:56]
+18908 ?        S      0:00 [kworker/u:57]
+18909 ?        S      0:00 [kworker/u:58]
+18910 ?        S      0:00 [kworker/u:59]
+18911 ?        S      0:00 [kworker/u:60]
+18912 ?        S      0:00 [kworker/u:61]
+18913 ?        S      0:00 [kworker/u:62]
+18914 ?        S      0:00 [kworker/u:63]
+18915 ?        S      0:00 [kworker/u:64]
+18916 ?        S      0:00 [kworker/u:65]
+18917 ?        S      0:00 [kworker/u:66]
+18918 ?        S      0:00 [kworker/u:67]
+18919 ?        S      0:00 [kworker/u:68]
+18920 ?        S      0:00 [kworker/u:69]
+18921 ?        S      0:00 [kworker/u:70]
+18922 ?        S      0:00 [kworker/u:71]
+18923 ?        S      0:00 [kworker/u:72]
+18924 ?        S      0:00 [kworker/u:73]
+18925 ?        S      0:00 [kworker/u:74]
+18926 ?        S      0:00 [kworker/u:75]
+18927 ?        S      0:00 [kworker/u:76]
+18928 ?        S      0:00 [kworker/0:3]
+19277 ?        S<     0:00 [hci0]
+19376 ?        S      0:00 [scsi_eh_29]
+19377 ?        S      0:00 [usb-storage]
+19456 ?        S      0:00 [kworker/1:1]
+19497 ?        S      0:00 udevd --daemon
+19498 ?        S      0:00 udevd --daemon
+19733 pts/2    Tl     0:04 /home/kurikulum/.rvm/rubies/ruby-1.9.3-p392/bin/ruby
+20306 ?        S      0:00 captmon2 --data-write-fd=3 --data-read-fd=12 --cmd-wr
+20307 pts/2    R+     0:00 ps ax
+23338 ?        SLl    3:59 /opt/google/chrome/chrome       
+23380 ?        S      0:03 /opt/google/chrome/chrome       
+23381 ?        S      0:00 /opt/google/chrome/chrome-sandbox /opt/google/chrome/
+23383 ?        S      0:00 /opt/google/chrome/chrome --type=zygote
+23386 ?        S      0:00 /opt/google/chrome/nacl_helper_bootstrap /opt/google/
+23422 ?        S      0:00 /opt/google/chrome/chrome --type=zygote
+23569 ?        Sl     0:00 /opt/google/chrome/chrome --type=renderer --lang=en-U
+23612 ?        Sl     0:01 /opt/google/chrome/chrome --type=renderer --lang=en-U
+26217 ?        Sl     0:40 /opt/google/chrome/chrome --type=renderer --lang=en-U
+26372 ?        Sl     1:20 /opt/google/chrome/chrome --type=ppapi --channel=2333
+29968 ?        Sl     2:10 /home/kurikulum/Desktop/eclipse
+32146 ?        S      0:00 [kworker/u:22]
+32147 ?        S      0:00 [kworker/u:23]
+32154 ?        S      0:00 [kworker/u:30]
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ ps axrails server[5Puby -v
+ruby 2.0.0p0 (2013-02-24 revision 39474) [i686-linux]
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ ruby -v[2Pps axrails server
+=> Booting WEBrick
+=> Rails 3.2.12 application starting in development on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+A server is already running. Check /home/kurikulum/workspace/Membuat/tmp/pids/server.pid.
+Exiting
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ kill -9 19733
+kurikulum@kurikulum-laptop:~/workspace/Membuat$ kill -9 19733[1Prails server[5Puby -v[2Pps ax
+  PID TTY      STAT   TIME COMMAND
+    1 ?        Ss     0:01 /sbin/init
+    2 ?        S      0:00 [kthreadd]
+    3 ?        S      0:17 [ksoftirqd/0]
+    6 ?        S      0:00 [migration/0]
+   11 ?        S<     0:00 [cpuset]
+   12 ?        S<     0:00 [khelper]
+   13 ?        S<     0:00 [netns]
+   15 ?        S      0:00 [sync_supers]
+   16 ?        S      0:00 [bdi-default]
+   17 ?        S<     0:00 [kintegrityd]
+   18 ?        S<     0:00 [kblockd]
+   19 ?        S<     0:00 [ata_sff]
+   20 ?        S      0:00 [khubd]
+   21 ?        S<     0:00 [md]
+   23 ?        S      0:00 [khungtaskd]
+   24 ?        S      0:05 [kswapd0]
+   25 ?        SN     0:00 [ksmd]
+   26 ?        SN     0:00 [khugepaged]
+   27 ?        S      0:00 [fsnotify_mark]
+   28 ?        S      0:00 [ecryptfs-kthrea]
+   29 ?        S<     0:00 [crypto]
+   37 ?        S<     0:00 [kthrotld]
+   40 ?        S      0:00 [scsi_eh_0]
+   41 ?        S      0:00 [scsi_eh_1]
+  220 ?        S<     0:00 [firewire]
+  221 ?        S      0:00 [scsi_eh_2]
+  222 ?        S      0:00 [scsi_eh_3]
+  223 ?        S      0:00 [scsi_eh_4]
+  224 ?        S      0:00 [scsi_eh_5]
+  271 ?        S      0:01 [jbd2/sda6-8]
+  272 ?        S<     0:00 [ext4-dio-unwrit]
+  328 ?        S      0:00 upstart-udev-bridge --daemon
+  345 ?        Sl     0:24 /opt/google/chrome/chrome --type=renderer --lang=en-U
+  346 ?        Ss     0:00 udevd --daemon
+  432 ?        S<     0:00 [cfg80211]
+  505 ?        S<     0:00 [iwl3945]
+  660 ?        S<     0:00 [kpsmoused]
+  702 ?        S<     0:00 [kmemstick]
+  704 ?        S      0:00 [r592_io]
+  705 ?        S<     0:00 [r852]
+  797 ?        S      0:00 [jbd2/sda7-8]
+  800 ?        S<     0:00 [ext4-dio-unwrit]
+  822 ?        S<     0:00 [l2cap]
+ 1066 ?        S<     0:00 [hd-audio0]
+ 1126 ?        S      0:00 upstart-socket-bridge --daemon
+ 1152 ?        Ss     0:00 /usr/sbin/sshd -D
+ 1155 ?        Sl     0:02 rsyslogd -c5
+ 1163 ?        Ss     0:07 dbus-daemon --system --fork --activation=upstart
+ 1173 ?        S      0:03 /usr/sbin/modem-manager
+ 1175 ?        Ssl    0:01 NetworkManager
+ 1177 ?        S      0:00 avahi-daemon: running [kurikulum-laptop.local]
+ 1178 ?        S      0:00 avahi-daemon: chroot helper
+ 1195 ?        Sl     0:02 /usr/lib/policykit-1/polkitd --no-debug
+ 1233 ?        S      0:00 /sbin/wpa_supplicant -u -s -O /var/run/wpa_supplicant
+ 1251 tty4     Ss+    0:00 /sbin/getty -8 38400 tty4
+ 1257 tty5     Ss+    0:00 /sbin/getty -8 38400 tty5
+ 1277 tty2     Ss+    0:00 /sbin/getty -8 38400 tty2
+ 1281 tty3     Ss+    0:00 /sbin/getty -8 38400 tty3
+ 1290 ?        Ss     0:00 /usr/sbin/avr-evtd -d /dev/ttyS0
+ 1295 tty6     Ss+    0:00 /sbin/getty -8 38400 tty6
+ 1318 ?        Ss     0:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+ 1319 ?        Sl    10:08 /usr/local/Mobile_Partner/MobilePartner.bin
+ 1324 ?        Ssl    0:00 lightdm
+ 1336 ?        Ssl    0:07 /usr/sbin/mysqld
+ 1344 ?        Ss     0:00 cron
+ 1345 ?        Ss     0:00 atd
+ 1347 ?        Ss     0:02 /usr/sbin/irqbalance
+ 1361 tty7     Rs+   10:20 /usr/bin/X :0 -auth /var/run/lightdm/root/:0 -noliste
+ 1366 ?        S      0:03 [flush-8:0]
+ 1376 ?        S      0:00 /usr/lib/postgresql/9.1/bin/postgres -D /var/lib/post
+ 1413 ?        Ss     0:02 /usr/sbin/cupsd -F
+ 1417 ?        Sl     0:00 /usr/lib/i386-linux-gnu/colord/colord
+ 1450 ?        Ss     0:03 postgres: writer process                            
+ 1451 ?        Ss     0:02 postgres: wal writer process                        
+ 1452 ?        Ss     0:00 postgres: autovacuum launcher process               
+ 1453 ?        Ss     0:00 postgres: stats collector process                   
+ 1457 ?        Sl     0:00 /usr/lib/accountsservice/accounts-daemon
+ 1466 ?        Sl     0:00 /usr/sbin/console-kit-daemon --no-daemon
+ 1574 ?        Sl     0:00 /usr/lib/upower/upowerd
+ 1633 ?        SNl    0:00 /usr/lib/rtkit/rtkit-daemon
+ 1714 ?        Ssl    0:00 /usr/sbin/slapd -h ldap:/// ldapi:/// -g openldap -u
+ 1734 ?        S      0:00 ddclient - sleeping for 200 seconds
+ 1756 ?        Ss     0:00 sudo -u ebox /usr/bin/redis-server /var/lib/ebox/conf
+ 1757 ?        S      0:06 /usr/bin/redis-server /var/lib/ebox/conf/redis.conf
+ 1889 ?        Ss     0:01 /usr/sbin/apache2 -k start -f /var/lib/ebox/conf/apac
+ 1908 ?        Sl     0:00 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.
+ 1916 ?        Ss     0:07 /usr/bin/redis-server /etc/redis/redis.conf
+ 1929 ?        S      0:00 /usr/sbin/apache2 -k start -f /var/lib/ebox/conf/apac
+ 1931 ?        Sl     0:08 python /usr/bin/paster serve --user=schooltool --grou
+ 1954 ?        S<     0:00 [iprt]
+ 1981 ?        Ss     0:00 /usr/sbin/winbindd
+ 1993 ?        Ss     0:00 /usr/bin/xfs -daemon -user debian-xfs -droppriv
+ 1996 ?        S      0:00 /usr/sbin/winbindd
+ 2011 ?        Ss     0:00 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 122:136
+ 2027 ?        Ss     0:00 /usr/sbin/bluetoothd
+ 2032 ?        S<     0:00 [krfcommd]
+ 2038 ?        Ss     0:00 /usr/sbin/ccpd
+ 2084 ?        Ss     0:00 /usr/sbin/apache2 -k start
+ 2110 ?        S      0:00 /usr/sbin/apache2 -k start
+ 2111 ?        S      0:00 /usr/sbin/apache2 -k start
+ 2112 ?        S      0:00 /usr/sbin/apache2 -k start
+ 2113 ?        S      0:00 /usr/sbin/apache2 -k start
+ 2114 ?        S      0:00 /usr/sbin/apache2 -k start
+ 2116 ?        S      0:00 /usr/sbin/lighttpd -f /etc/lighttpd/lighttpd.conf
+ 2126 ?        Ss     0:00 /usr/bin/php-cgi
+ 2136 ?        S      0:00 /usr/bin/php-cgi
+ 2146 ?        Ss     0:00 /usr/bin/php-cgi
+ 2151 ?        S      0:00 /usr/bin/php-cgi
+ 2162 ?        S      0:03 /usr/local/Mobile_Partner/driver/HWActivator .bin
+ 2165 ?        S      0:03 /usr/local/MobileBrServ/mbbservice
+ 2167 tty1     Ss+    0:00 /sbin/getty -8 38400 tty1
+ 2169 ?        Ss     0:00 /usr/bin/php-cgi
+ 2171 ?        S      0:00 /usr/bin/php-cgi
+ 2172 ?        Ss     0:00 /usr/bin/php-cgi
+ 2174 ?        S      0:00 /usr/bin/php-cgi
+ 2188 ?        SLl    0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ 2214 ?        Ssl    0:00 /usr/bin/gnome-session --session=gnome-classic
+ 2247 ?        Ss     0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-s
+ 2250 ?        S      0:00 /usr/bin/dbus-launch --exit-with-session /usr/bin/gno
+ 2251 ?        Ss     0:14 //bin/dbus-daemon --fork --print-pid 5 --print-addres
+ 2253 ?        S      0:00 /usr/lib/gvfs/gvfsd
+ 2258 ?        Ssl    0:00 /usr/lib/gvfs//gvfs-fuse-daemon /home/kurikulum/.gvfs
+ 2274 ?        Sl     0:09 /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+ 2280 ?        S      0:07 /usr/sbin/ccpd
+ 2283 ?        S      0:00 /usr/lib/libgconf2-4/gconfd-2
+ 2286 ?        Sl     0:00 /usr/lib/gnome-settings-daemon/gsd-printer
+ 2291 ?        Sl     0:01 /usr/bin/gnome-screensaver --no-daemon
+ 2292 ?        Sl     0:16 metacity
+ 2296 ?        S      0:05 syndaemon -i 0.5 -K -R
+ 2299 ?        Sl     1:23 gnome-panel
+ 2302 ?        S<l    3:55 /usr/bin/pulseaudio --start --log-target=syslog
+ 2306 ?        Sl     0:00 /usr/lib/dconf/dconf-service
+ 2312 ?        S      0:00 /usr/lib/pulseaudio/pulse/gconf-helper
+ 2314 ?        Sl     0:00 /usr/lib/gnome-settings-daemon/gnome-fallback-mount-h
+ 2316 ?        Sl     0:00 bluetooth-applet
+ 2317 ?        Sl     0:00 nm-applet
+ 2318 ?        Sl     0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authenticatio
+ 2319 ?        Sl     0:01 gnome-sound-applet
+ 2320 ?        Sl     4:37 nautilus -n
+ 2333 ?        S      0:00 /usr/lib/gvfs/gvfs-gdu-volume-monitor
+ 2337 ?        Sl     0:00 /usr/lib/udisks/udisks-daemon
+ 2338 ?        S      0:02 udisks-daemon: polling /dev/sdb /dev/sr0
+ 2351 ?        Sl     0:00 /usr/lib/notify-osd/notify-osd
+ 2369 ?        Sl     0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ 2372 ?        S      0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ 2374 ?        S      0:00 /usr/lib/telepathy/mission-control-5
+ 2376 ?        S      0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.1 /org/gtk/gvf
+ 2381 ?        S      0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.1 /org/gtk/gvfs
+ 2399 ?        S      0:03 /usr/lib/gvfs/gvfsd-metadata
+ 2425 ?        Sl     0:00 telepathy-indicator
+ 2483 ?        S      0:00 /usr/lib/gnome-disk-utility/gdu-notification-daemon
+ 2718 ?        S      0:00 /usr/bin/python /usr/share/system-config-printer/appl
+ 2731 ?        Sl     0:30 /usr/bin/python /usr/lib/ubuntuone-client/ubuntuone-s
+ 5455 ?        Sl     0:05 /opt/google/chrome/chrome --type=renderer --lang=en-U
+ 6133 ?        Sl     0:00 /opt/google/chrome/chrome --type=renderer --lang=en-U
+ 6291 ?        Sl     0:01 update-notifier
+ 6312 ?        S      0:00 /usr/bin/python /usr/lib/system-service/system-servic
+ 6645 ?        Sl     0:00 /usr/lib/deja-dup/deja-dup/deja-dup-monitor
+ 7005 ?        Ss     1:27 /sbin/mount.ntfs /dev/sda8 /media/DATA -o rw,nosuid,n
+ 7066 ?        Sl     0:01 /opt/google/chrome/chrome --type=renderer --lang=en-U
+ 7886 ?        Rl     0:05 lxterminal
+ 7909 ?        Z      0:00 [lxterminal] <defunct>
+ 7910 pts/0    Ss     0:00 /bin/bash
+ 9732 ?        Sl     0:04 /opt/google/chrome/chrome --type=renderer --lang=en-U
+ 9811 ?        Sl     0:03 /opt/google/chrome/chrome --type=renderer --lang=en-U
+ 9854 ?        Sl     0:03 /opt/google/chrome/chrome --type=renderer --lang=en-U
+11435 ?        Sl     0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+11899 ?        S      0:00 /usr/sbin/apache2 -k start
+13173 pts/0    S+     0:00 script
+13174 pts/0    S+     0:00 script
+13175 pts/1    Ss     0:00 bash -i
+14075 pts/1    S+     0:00 script about
+14076 pts/1    S+     0:00 script about
+14077 pts/2    Ss     0:00 bash -i
+15067 ?        S      0:00 [kworker/0:1]
+15533 ?        S      0:00 /usr/sbin/apache2 -k start
+15534 ?        S      0:00 /usr/sbin/apache2 -k start
+15535 ?        S      0:00 /usr/sbin/apache2 -k start
+15779 ?        Sl     9:48 gnome-system-monitor
+18860 ?        S      0:00 [migration/1]
+18862 ?        S      0:00 [ksoftirqd/1]
+18863 ?        S      0:00 [kworker/1:0]
+18873 ?        S      0:00 [kworker/u:19]
+18874 ?        S      0:00 [kworker/u:20]
+18925 ?        S      0:00 [kworker/u:74]
+18928 ?        S      0:00 [kworker/0:3]
+19277 ?      
